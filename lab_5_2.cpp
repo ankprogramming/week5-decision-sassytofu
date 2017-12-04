@@ -18,7 +18,7 @@ int main() {
         cout << "Your name has been changed to " << name1 << endl;
     }
 else {
-    cout<<name1<<endl;
+    cout<<name1<<endl;sda
 }
     return 0;
 }
