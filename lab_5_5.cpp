@@ -1,11 +1,10 @@
 #include <iostream>
 #include <string>
-
+using namespace std;
 int main () {
 
   string playerName;
   int score = 0, life = 3;
-
   // ประกาศตัวแปรเพื่อรับการเลือกคำตอบของผู้เล่น
   // เช่นการเป็น ตัวเลขให้ประกาศเป็น int choice1;
   // ถ้ารับคำตอบเป็นตัวอักษร ให้ประกาศเป็น char choice1;
@@ -13,6 +12,7 @@ int main () {
 
   cout << "Welcome to Mini Adventure Game." << endl;
   cout << "Please enter your name : ";
+  cin>>playerName;
 
   // เขียนคำสั่งรับชื่อ แล้วเก็บในตัวแปร playerName
 
